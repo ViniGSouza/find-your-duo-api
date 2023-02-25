@@ -1,10 +1,12 @@
 {
   "name": "server",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "scripts": {
     "build": "tsc",
-    "start": "tsnd --exit-child src/server.ts"
+    "server": "node server/server.js",
+    "start-dev": "tsnd --exit-child src/server.ts"
   },
   "keywords": [],
   "author": "",
